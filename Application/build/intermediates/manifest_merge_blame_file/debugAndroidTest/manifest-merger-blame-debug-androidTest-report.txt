@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright (C) 2013 The Android Open Source Project
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<!-- package name must be unique so suffix with "tests" so package loader doesn't ignore us -->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    package="com.example.android.camera2basic.test"
+20    android:versionCode="1"
+21    android:versionName="1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="21"
+24-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml
+25        android:targetSdkVersion="27" />
+25-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml
+26
+27<!--     Specifies the instrumentation test runner used to run the tests. -->
+28    <instrumentation
+28-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:35:5-38:74
+29        android:name="android.test.InstrumentationTestRunner"
+29-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:36:13-66
+30        android:functionalTest="false"
+30-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:35:5-38:74
+31        android:handleProfiling="false"
+31-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:35:5-38:74
+32        android:label="Tests for com.example.android.camera2basic"
+32-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:38:13-71
+33        android:targetPackage="com.example.android.camera2basic" />
+33-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:37:13-69
+34
+35    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+36    <!--
+37 We add an application tag here just so that we can indicate that
+38         this package needs to link against the android.test library,
+39         which is needed when building test cases.
+40    -->
+41    <application android:debuggable="true" >
+41-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:28:5-30:19
+41-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger3730811767161304663.xml:7:18-43
+42        <uses-library android:name="android.test.runner" />
+42-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:29:9-60
+42-->/Users/daquan/AndroidStudioProjects/android-Camera2Basic-master/Application/tests/AndroidManifest.xml:29:23-57
+43    </application>
+44
+45</manifest>
